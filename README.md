@@ -23,7 +23,7 @@ Visit our [demo website](https://jik876.github.io/hifi-gan-demo/) for audio samp
 
 
 ## Pre-requisites
-1. Python >= 3.6
+1. Python >= 3.6 (conda create -n hifigan python=3.6.13)
 2. Clone this repository.
 3. Install python requirements. Please refer [requirements.txt](requirements.txt)
 4. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/).
