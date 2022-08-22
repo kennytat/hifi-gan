@@ -29,6 +29,12 @@ Visit our [demo website](https://jik876.github.io/hifi-gan-demo/) for audio samp
 4. Download and extract the [LJ Speech dataset](https://keithito.com/LJ-Speech-Dataset/).
 And move all wav files to `LJSpeech-1.1/wavs`
 
+(Optional) Fixed numba package
+```
+pip install numba==0.49.1
+pip uninstall --yes librosa
+pip install librosa --force-reinstall
+```
 
 ## Training
 ```
