@@ -30,8 +30,9 @@ Visit our [demo website](https://jik876.github.io/hifi-gan-demo/) for audio samp
 And move all wav files to `LJSpeech-1.1/wavs`
 Edit filename in LJSpeech-1.1/training.txt && LJSpeech-1.1/validation.txt with according wavs file in LJSpeech-1.1/wavs (format: filename-no-extension|text)
 
-(Optional) Fixed numba package
+(Optional) Fixed missing packages
 ```
+pip install Pillow
 pip install numba==0.49.1
 pip uninstall --yes librosa
 pip install librosa --force-reinstall
