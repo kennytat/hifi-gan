@@ -49,6 +49,9 @@ You can change the path by adding `--checkpoint_path` option.
 Validation loss during training with V1 generator.<br>
 ![validation loss](./validation_loss.png)
 
+## Logging
+tensorboard --logdir=cp_hifigan/logs --host=0.0.0.0
+
 ## Pretrained Model
 You can also use pretrained models we provide.<br/>
 [Download pretrained models](https://drive.google.com/drive/folders/1-eEYTB5Av9jNql0WGBlRoi-WH2J7bp5Y?usp=sharing)<br/> 
