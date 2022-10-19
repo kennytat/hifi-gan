@@ -50,7 +50,9 @@ Validation loss during training with V1 generator.<br>
 ![validation loss](./validation_loss.png)
 
 ## Logging
+```
 tensorboard --logdir=cp_hifigan/logs --host=0.0.0.0
+```
 
 ## Pretrained Model
 You can also use pretrained models we provide.<br/>
